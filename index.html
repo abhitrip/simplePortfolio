@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- For the mobile version -->
+    <meta name ="viewport" content="width=device-width, initial-scale=1">
+    <!-- For browser compaitbility -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title> Sample Frontend portfolio</title>
+    <link href='http://googleapis.com/css?family=Lato:100,300' rel="stylesheet" type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+ <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <img class="title-logo img-responsive" src="images/rsz_images.png" >
+        </div>
+        <div class="col-md-6 text-right text-bottom text-uppercase">
+            <h1 class="title-super text-thin"> Jane Doette</h1>
+            <h4> Front end Ninja</h4>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr class="thick-rule">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <img class="img-responsive " src="images/feature.jpg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-muted text-thin">
+                <h2> Featured Work</h2>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="images/item1.jpg" data-toggle="modal" data-target="#app1">
+                <h3 class="text-upper">Appify</h3>
+                <p>https://github.com/udacity/appify</p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/item2.jpg" data-toggle="modal" data-target="#app2">
+                <h3 class="text-upper">Sunflower</h3>
+                <p>https://github.com/udacity/sunflower</p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/item3.jpg" data-toggle="modal" data-target="#app3">
+                <h3 class="text-upper">Bokeh</h3>
+                <p>https://github.com/udacity/bokeh</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="app1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">App1</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/item1.jpg">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="app2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id= "myModalLabel">App2</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/item2.jpg">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<div class="modal fade" id="app3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id= "myModalLabel">App3</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/item3.jpg">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </div>
+</body>
+</html>
